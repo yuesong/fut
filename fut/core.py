@@ -1151,7 +1151,7 @@ class Core(object):
         if assetId:
             params['maskedDefId'] = assetId
         if league:
-            params['leag'] = league
+            params['league'] = league
         if club:
             params['team'] = club
         if position:
@@ -1159,7 +1159,7 @@ class Core(object):
         if zone:
             params['zone'] = zone
         if nationality:
-            params['nat'] = nationality
+            params['nation'] = nationality
         if rare:
             params['rare'] = 'SP'
         if playStyle:
